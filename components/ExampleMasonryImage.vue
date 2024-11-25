@@ -48,7 +48,7 @@ export default {
      * I am mocking a API call that load 20 objects at a time.
      */
     append() {
-      for (let i = 0; i < 5; i++) {
+      for (let i = 0; i < 15; i++) {
         const id = Math.floor(Math.random() * 1000)
         const height = Math.floor(Math.random() * 200) + 600
         const toAppend = {
